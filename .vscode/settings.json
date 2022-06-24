@@ -8,8 +8,9 @@
    "python.linting.flake8Path": "/home/gitpod/.pyenv/shims/flake8",
    "cornflakes.linter.executablePath": "/home/gitpod/.pyenv/shims/flake8",
    "files.exclude": {
+      "": true,
       "**/.DS_Store": true,
-      "**/.git": true,
+      "**/.git": false,
       "**/.github": true,
       "**/.gitp*": true,
       "**/.hg": true,
@@ -18,10 +19,13 @@
       "**/core.Microsoft*": true,
       "**/core.mongo*": true,
       "**/core.python*": true,
-      "**/CVS": true
+      "**/CVS": true,
+      "**/.gitignore":false
+
+
    },
    "files.autoSave": "off",
-   "workbench.colorTheme": "Visual Studio Dark",
+   "workbench.colorTheme": "Tomorrow Night Blue",
    "terminal.integrated.gpuAcceleration": "canvas",
    "editor.defaultFormatter": "HookyQR.beautify"
 }
