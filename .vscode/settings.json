@@ -19,13 +19,13 @@
       "**/core.Microsoft*": true,
       "**/core.mongo*": true,
       "**/core.python*": true,
-      "**/CVS": true,
-      "**/.gitignore":false
+      "**/CVS": true
 
 
    },
    "files.autoSave": "off",
    "workbench.colorTheme": "Tomorrow Night Blue",
    "terminal.integrated.gpuAcceleration": "canvas",
-   "editor.defaultFormatter": "HookyQR.beautify"
+   "editor.defaultFormatter": "HookyQR.beautify",
+   "explorer.excludeGitIgnore": true
 }
